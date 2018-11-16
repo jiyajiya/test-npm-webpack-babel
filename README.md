@@ -11,5 +11,9 @@
 - \$ npm i moment
 
 3. Using a JavaScript module bundler (webpack)
+
+- \$ npm i --save-dev webpack webpack-cli
+- \$ ./node_modules/webpack/bin/webpack.js index.js --mode=development
+
 4. Transpiling code for new language features (babel)
 5. Using a task runner (npm scripts)
