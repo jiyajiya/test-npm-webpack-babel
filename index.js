@@ -5,7 +5,7 @@ const date = moment().format('MMMM Do YYYY, h:mm:ss a');
 console.log(`[test][index.js][2] ${date}`);
 */
 
-/* #3, #4 */
+/* #3, #4, #5, #6 */
 import moment from 'moment';
 console.log('[test][index.js][webpack][1]');
 

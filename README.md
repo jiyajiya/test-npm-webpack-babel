@@ -15,10 +15,14 @@
 - \$ npm i --save-dev webpack webpack-cli
 - \$ ./node_modules/webpack/bin/webpack.js index.js --mode=development
 
-4. Using a JavaScript module bundler (webpack)
+4. Using a JavaScript module bundler (webpack) #2
 
 - add webpack.config.js, add {scripts:{build, watch}} into package.json
 - \$ npm run build
 
 5. Transpiling code for new language features (babel)
+
+- \$ npm i --save-dev @babel/core @babel/preset-env babel-loader
+- modify webpack.config.js
+
 6. Using a task runner (npm scripts)
