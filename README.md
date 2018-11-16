@@ -6,6 +6,10 @@
 
 1. Using a JavaScript the "old-school" way
 2. Using a JavaScript package manager (npm)
+
+- \$ npm init
+- \$ npm i moment
+
 3. Using a JavaScript module bundler (webpack)
 4. Transpiling code for new language features (babel)
 5. Using a task runner (npm scripts)
